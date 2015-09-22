@@ -21,14 +21,15 @@
 }
 
 #carousel {
-	background-color: skyblue;
+	background-color: #A7D4DA;
 	/*margin-bottom: 0;*/
 }
 
 .even {
-	background-color: lightgray;
+	background-color: grey;
 }
 
+
 .odd {
-	background-color: lightblue;
+	background-color: #A7D4DA;
 }
