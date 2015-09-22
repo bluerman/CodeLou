@@ -7,11 +7,28 @@
 }
 
 .main-content{
-	padding-top: 50px;
+	padding: 1em, 0;
 	text-align: center;
 }
 
 
 .main-footer{
 	text-align: center;
+}
+
+.carousel-inner div {
+	text-align: center;
+}
+
+#carousel {
+	background-color: skyblue;
+	/*margin-bottom: 0;*/
+}
+
+.even {
+	background-color: lightgray;
+}
+
+.odd {
+	background-color: lightblue;
 }

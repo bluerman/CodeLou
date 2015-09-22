@@ -30,9 +30,37 @@
       </div>
     </div>
     <!-- End navbar -->
+
+
+    <!-- Carousel -->
+    <div id="carousel" class="carousel slide jumbotron auto wrap">
+      <div class="container">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <h1>Carousel Item #1</h1>
+            <p class="lead">Carousel content 1</p>
+          </div>
+          <div class="item">
+            <h1>Carousel Item #2</h1>
+            <p class="lead">Carousel content 2</p>
+          </div>
+          <div class="item">
+            <h1>Carousel Item #3</h1>
+            <p class="lead">Carousel content 3</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Carousel -->
+
     <a name="home" id="home"></a>
 
-    <div class="main-content">
+    <div class="main-content even">
       <div class="container">
         <a name="about" id="about"></a>
         <div class="section-header">
@@ -41,19 +69,21 @@
         <div class="row ft">
           <div class="col-sm-6 ft-copy">
             <h2>Content area 1a</h2>
+            <img src="img/placeholder.gif" />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
             </p>
           </div>
           <div class="col-sm-6 ft-copy">
             <h2>Content area 1b</h2>
+            <img src="img/placeholder.gif" />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
             </p>
           </div>
         </div>
     </div>
-    <div class="main-content">
+    <div class="main-content odd">
       <div class="container">
         <a name="experience" id="experience"></a>
         <div class="section-header">
@@ -74,7 +104,7 @@
           </div>
         </div>
     </div>
-    <div class="main-content">
+    <div class="main-content even">
       <div class="container">
       <a name="skills" id="skills"></a>
         <div class="section-header">
@@ -102,7 +132,7 @@
           </div>
         </div>
     </div>
-    <div class="main-footer">
+    <div class="main-footer odd">
       <div class="container">
         This is a footer.
       </div>
@@ -117,6 +147,14 @@
         }, 700);
         return false;
     });
+
+    $(function(){
+        $('.carousel').carousel({
+          interval: 4000
+        });
+    });
     </script>
+
+
   </body>
 </html>
