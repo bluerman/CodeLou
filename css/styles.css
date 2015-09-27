@@ -1,3 +1,5 @@
+
+/* --- Content areas --- */
 .container {
 	margin-top: 1em;
 }
@@ -11,25 +13,51 @@
 	text-align: center;
 }
 
+.even {
+	background-color: #A7D4DA;
+}
 
-.main-footer{
-	text-align: center;
+.odd {
+	background-color: #ffffff;
+}
+
+
+/* --- Carousel stuff --- */
+
+#carousel {
+	background-color: #ffffff;
+}
+.carousel-indicators li {
+	background-color: #A7D4DA;
+}
+
+.carousel-indicators .active {
+	background-color: #A7D4DA;
 }
 
 .carousel-inner div {
 	text-align: center;
 }
 
-#carousel {
-	background-color: #A7D4DA;
-	/*margin-bottom: 0;*/
+
+/* --- travel --- */
+
+.container {
 }
 
-.even {
-	background-color: grey;
+.travel img {
+	max-width: 250px;
+	max-height: 300px;
 }
 
+.travel-item {
+	background-color: lightgrey;
+	margin: 1em;
+	max-width: 30%;
+}
 
-.odd {
-	background-color: #A7D4DA;
+/* --- footer --- */
+
+.main-footer{
+	text-align: center;
 }
