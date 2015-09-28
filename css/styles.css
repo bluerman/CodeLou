@@ -23,7 +23,6 @@
 
 
 /* --- Carousel stuff --- */
-
 #carousel {
 	background-color: #ffffff;
 }
@@ -40,24 +39,32 @@
 }
 
 
-/* --- travel --- */
-
-.container {
+/* --- Experience --- */
+.experience img {
+	max-width: 250px;
+	max-height: 70px;
 }
 
+
+/* --- travel --- */
 .travel img {
 	max-width: 250px;
 	max-height: 300px;
 }
 
 .travel-item {
-	background-color: lightgrey;
 	margin: 1em;
-	max-width: 30%;
+}
+
+.travel-item p {
+	max-width: 100%;
+	text-align: center;
 }
 
 /* --- footer --- */
 
 .main-footer{
 	text-align: center;
+	background-color: black;
+	color: white;
 }
