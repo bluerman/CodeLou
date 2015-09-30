@@ -5,7 +5,7 @@
 }
 
 .main-content{
-	padding: 1em, 0;
+	padding: 0em, 0;
 	text-align: center;
 }
 
@@ -14,13 +14,13 @@
 }
 
 .odd {
-	background-color: #ffffff;
+	background-color: #fff;
 }
 
 
 /* --- Carousel stuff --- */
 #carousel {
-	background-color: #ffffff;
+	background-color: #fff;
 }
 .carousel-indicators li {
 	background-color: #A7D4DA;
@@ -43,15 +43,24 @@
 
 
 /* --- travel --- */
+
+
+.travel-container{
+	max-width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
 .travel img {
 	max-width: 250px;
 	max-height: 300px;
 }
 
 .travel-item {
-	margin: 0 auto;
+	/*margin: 0 auto;
 	max-width: 30%;
-
+*/
 }
 
 .travel-item p {
@@ -62,12 +71,12 @@
 /* --- lightbox --- */
 
 #lightbox {
-  position:fixed; /* keeps the lightbox window in the current viewport */
+  position:fixed;
   top:0;
   left:0;
   width:100%;
   height:100%;
-  background:url(overlay.png) repeat;
+  background:rgba(0, 0, 0, 0.8);
   text-align:center;
 }
 
@@ -90,6 +99,9 @@
 
 .main-footer{
 	text-align: center;
-	background-color: black;
-	color: white;
+	background-color: #000;
+	color: #fff;
 }
+
+
+/* --- Media Queries --- */
