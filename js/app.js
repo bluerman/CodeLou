@@ -37,6 +37,6 @@ $('.nav a').click(function() {
 
 $(function(){
     $('.carousel').carousel({
-      interval: 2000
+      interval: 3000
     });
 });
